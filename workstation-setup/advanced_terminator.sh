@@ -29,3 +29,5 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 # Fzf For Oh My Zsh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+
+mv zsh-syntax-highlighting .zsh-syntax-highlighting
