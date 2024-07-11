@@ -1,4 +1,4 @@
-export ZSH="/home/srl/.oh-my-zsh"
+export ZSH="/home/srlsec/.oh-my-zsh"
 export FZF_BASE="/home/.fzf"
 
 ZSH_THEME="agnoster"
@@ -14,7 +14,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 #export FZF_BASE=/home/srl/.oh-my-zsh/custom/plugins/fzf-zsh-plugin
 # Colors:
-eval `dircolors ~/.dir_colors/dircolors`
+#eval `dircolors ~/.dir_colors/dircolors`
 
 # Highlighting:
 #source /home/srl/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -109,10 +109,10 @@ function cd() {
 }
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source /home/srl/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/srlsec/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+#source <(ng completion script)
 
 alias urless='python3 /home/srl/urless/urless.py'
